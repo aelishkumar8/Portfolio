@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">Portfolio</div>
+            <button class="mobile-menu-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#work">Work Experience</a></li>
+                <li><a href="#certificates">Certificates</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#about">About Me</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="section">
+        <div class="container">
+            <div class="welcome-banner">
+                <div class="profile-image">
+                    <img src="profile-placeholder.jpg" alt="Your Profile Picture">
+                </div>
+                <div class="welcome-content">
+                    <h1>Welcome to My Portfolio</h1>
+                    <p class="intro-text">Hi, I'm <span class="highlight">Aelish Kumar</span></p>
+                    <p class="subtitle">Python Developer & Machine Learning Enthusiast</p>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/aelish-kumar/" target="_blank" class="social-link linkedin">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://github.com/aelishkumar8" target="_blank" class="social-link github">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.instagram.com/aelishkumar/" target="_blank" class="social-link instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="project-showcase">
+                <h2>Project Preview</h2>
+                <div class="project-preview">
+                    <div class="project-image">
+                        <!-- Add your project image here -->
+                        <img src="project-placeholder.jpg" alt="Project Preview">
+                    </div>
+                    <div class="project-description">
+                        <h3>Project Title</h3>
+                        <p>Brief description of your project...</p>
+                        <a href="#" class="btn">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Work Experience Section -->
+    <section id="work" class="section">
+        <div class="container">
+            <h2>Work Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>System Engineer</h3>
+                        <p class="company">Tata Consultancy Services</p>
+                        <p class="date">July 2024 - Present</p>
+                        <ul class="work-description">
+                            <li>Developed business logic using Java and optimized SQL queries for large-scale utility data operations.</li>
+                            <li>Executed configuration changes to align the application with evolving business and technical needs.</li>
+                            <li>Collaborated across teams to implement data-driven features and streamline automated workflows.</li>
+                            <li>Analyzed data flows and debugged system issues to enhance code reusability and predictive behavior.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certificates Section -->
+    <section id="certificates" class="section">
+        <div class="container">
+            <h2>Certificates</h2>
+            <div class="certificates-grid">
+                <div class="certificate-card">
+                    <h3>Certificate Title</h3>
+                    <p>Issuing Organization</p>
+                    <p>Date Earned</p>
+                    <p>Description of the certificate's importance...</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section">
+        <div class="container">
+            <h2>Education</h2>
+            <div class="education-content">
+                <div class="education-item">
+                    <h3>Bachelor of Science in Computer Science</h3>
+                    <p class="university">University of Petroleum and Energy Studies</p>
+                    <p class="year">2020 - 2024</p>
+                    <p class="description">I gained hands-on experience with Python and explored core concepts of Machine Learning and Artificial Intelligence. Strengthened my problem-solving skills through DSA in C++ and applied analytical thinking in projects involving data-driven modeling, predictive systems, and advanced computing, laying a strong foundation for real-world applications in intelligent technologies.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2>About Me</h2>
+            
+            <!-- Technical Skills -->
+            <div class="skills-section">
+                <h3>Technical Skills</h3>
+                <div class="skills-grid">
+                    <div class="skill-item">
+                        <i class="fab fa-python"></i>
+                        <span>Python</span>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fas fa-code"></i>
+                        <span>C++</span>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fab fa-java"></i>
+                        <span>Java</span>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fas fa-database"></i>
+                        <span>SQL</span>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fab fa-html5"></i>
+                        <span>HTML</span>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fab fa-css3-alt"></i>
+                        <span>CSS</span>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fab fa-js"></i>
+                        <span>JavaScript</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Languages -->
+            <div class="languages-section">
+                <h3>Programming Languages</h3>
+                <div class="languages-list" id="languagesList">
+                    <!-- Languages will be populated dynamically -->
+                </div>
+            </div>
+
+            <!-- Personal Details -->
+            <div class="personal-details">
+                <h3>Personal Details</h3>
+                <div class="details-grid">
+                    <div class="detail-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Your Address</span>
+                    </div>
+                    <div class="detail-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>your.email@example.com</span>
+                    </div>
+                    <div class="detail-item">
+                        <i class="fas fa-phone"></i>
+                        <span>Your Phone Number</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Resume Section -->
+            <div class="resume-section">
+                <h3>Resume</h3>
+                <div class="resume-container">
+                    <div class="resume-actions">
+                        <a href="Docs/resume.pdf" download class="btn download-btn">
+                            <i class="fas fa-download"></i> Download Resume
+                        </a>
+                        <a href="Docs/resume.pdf" target="_blank" class="btn view-btn">
+                            <i class="fas fa-eye"></i> View Full Resume
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Contact Form -->
+            <div class="contact-form">
+                <h3>Contact Me</h3>
+                <form id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Aelish kumar. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
